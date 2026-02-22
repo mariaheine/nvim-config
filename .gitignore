@@ -1,0 +1,24 @@
+# ~/.config/nvim/.gitignore
+
+# Lazy.nvim plugin directory (massive, don't commit)
+lazy-lock.json
+.lazy-cache
+.lua-cache
+
+# Swap/backup files (if you have them)
+*.swp
+*.swo
+*~
+.*.un~
+.*.sw?
+
+# Session files
+Session.vim
+.session.*
+
+# Spell files (if you use custom spell)
+spell/
+
+# Temporary files
+tmp/
+temp/
