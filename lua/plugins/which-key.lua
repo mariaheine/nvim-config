@@ -29,6 +29,8 @@ return {
         { "<leader>qq", "<cmd>wqa<CR>", desc = "Save all and quit" },
         { "<leader>qf", "<cmd>qa!<CR>", desc = "Force quit (no save)" },
         { "<leader>qs", "<cmd>wa<CR>", desc = "Save all files" },
+
+        {}
       })
     end
 }

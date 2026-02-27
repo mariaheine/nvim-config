@@ -57,8 +57,6 @@ return {
           ['<C-Space>'] = cmp.mapping.complete(),
           -- Close completion window
           ['<C-e>'] = cmp.mapping.abort(),
-          -- Confirm selection (CR = Enter)
-          ['<CR>'] = cmp.mapping.confirm({ select = true }),
           -- Tab to navigate snippets
           ['<Tab>'] = cmp.mapping(function(fallback)
             if cmp.visible() then
