@@ -20,6 +20,7 @@ return {
     "onsails/lspkind.nvim",
   },
   {
+    -- https://github.com/hrsh7th/nvim-cmp
     "hrsh7th/nvim-cmp",
     dependencies = {
       -- LSP completion source (connects to basedpyright)
